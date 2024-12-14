@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="page 2.css">
+</head>
+<body>
+    <header class="mi">
+    <div class="form">
+        <h1 id="TitleName">Sign Up</h1><br><br>
+        <form id="yourName">
+            UserName: <input type="text" id="textBox" placeholder="Enter Username" required><br><br>
+            Password : <input type="password" id="pass" placeholder="Enter Password" required><br><br>
+            <p>Agree The <a href="">Terms & Privacy</a></p>
+        </form>
+        <br><br>
+        <!--<input type="submit" onclick="val()"-->
+    <a href="file:///D:/ind%20project/page1.html" onclick="val()" id="a1">submit</a>
+    </div>
+    </header>
+    <script>
+        function val(){
+        var name=document.getElementById("textBox").value;
+        var password=document.getElementById("pass").value;
+        if(name==""){
+            alert("username must be filled");
+        }
+        if(password==""){
+            alert("password must be filled");
+        }
+        
+        }
+        let str="nitin";
+        console.log(str.lenght);
+    </script>
+</body>
+</html>

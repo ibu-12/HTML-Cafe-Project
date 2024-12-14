@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(71, 16, 16);
+}
+
+.menu h1{
+    margin-left: 40rem;
+    font-size: 50px;
+    color: #2a0404;
+}
+.menu .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:0rem;
+}
+.menu .box-container .box{
+    padding: 1rem;
+    text-align: center;
+    border:var(--border);
+}
+
+.menu .box-container .box img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.menu .box-container .box h3{
+    color:#8a4f4f;
+    font-size:2rem;
+    padding:0rem 0;
+}
+
+.menu .box-container .box .price{
+    color:#7a2b2b;
+    font-size:2.5rem;
+    padding:0.5rem 0;
+}
+
+.menu .box-container .box .price span{
+     font-size: 1.5rem;
+     text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background: #1c0303;
+}
+
+.menu .box-container .box .btn{
+    text-decoration: none;
+    background-color: #f8cfcf;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+ .ret{
+    text-decoration: none;
+    background-color: #2a0404;
+    color: #f8cfcf;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 100rem;
+ }
+
+ 
